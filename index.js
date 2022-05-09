@@ -1,5 +1,9 @@
 let resultado;
 
+function suma(x,y,z){
+    resultado = x + y + z;
+    return resultado;
+}
 function resta(x,y){
     resultado = x - y;
     return resultado;
@@ -19,4 +23,4 @@ function cuadrado(x = 0){
 }
 
 
-module.exports = {resta,producto,division,cuadrado};
+module.exports = {suma,resta,producto,division,cuadrado};
