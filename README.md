@@ -6,5 +6,6 @@ Ahora nos metemos en modo main y comprobamos que estamos en main, y subimos el f
 Realizamos un git push para cambiar el repositorio en remoto.
 
 
-//Me meto en la rama2 desde consola y modifico la funcion suma con 3 parametros
+//Me meto en la rama2 desde consola y modifico la funcion suma con 3 parametros.
+Subo el repositorio de rama2 y me vuelvo a meter en el repositorio main. Al intentar subir el fichero, me da conflicto,acepto la opcion de mantener ambos(ya que se que va a funcionar;y es lo mas recomendado si dudamos). Luego volvemos a subir el fichero al main con git add,git commit-m y git push. Ya tendriamos el fichero modificado en el main.
 
